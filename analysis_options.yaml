@@ -1,0 +1,32 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    # Regras de estilo
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+    
+    # Regras de documentação
+    public_member_api_docs: false
+    
+    # Regras de nomenclatura
+    camel_case_types: true
+    camel_case_extensions: true
+    
+    # Regras de imports
+    prefer_relative_imports: true
+    
+    # Regras de código
+    avoid_print: false  # Permitir print para simulação
+    avoid_empty_else: true
+    avoid_unnecessary_containers: true
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  
+  errors:
+    invalid_annotation_target: ignore

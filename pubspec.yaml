@@ -1,0 +1,30 @@
+name: simulacao_coelho
+description: Um projeto Dart para simulação de coelhos
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  # Adicione suas dependências aqui
+  # http: ^1.1.0
+  # json_annotation: ^4.8.1
+
+dev_dependencies:
+  # Adicione suas dependências de desenvolvimento aqui
+  test: ^1.24.0
+  # build_runner: ^2.4.6
+  # json_serializable: ^6.7.1
+
+# Uncomment the following line if you want to include assets
+# assets:
+#   - assets/
+#   - images/
+
+# Uncomment the following line if you want to include fonts
+# fonts:
+#   - family: Schyler
+#     fonts:
+#       - asset: fonts/Schyler-Regular.ttf
+#       - asset: fonts/Schyler-Italic.ttf
+#         style: italic
